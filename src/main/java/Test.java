@@ -10,7 +10,6 @@ public class Test extends Page{
         super(driver);
         this.driver=driver;
     }
-
     public void testSteps(){
         getPhoneNo().sendKeys("01581578235");
         getSubmit().click();

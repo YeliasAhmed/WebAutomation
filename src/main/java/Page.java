@@ -10,7 +10,6 @@ public class Page {
         this.driver=driver;
     }
 
-
     By phoneNo = By.xpath("//input[@id='number']");
     By submit = By.xpath("//button[@type='submit']");
     By pin = By.xpath("//input[@id='PIN']");
